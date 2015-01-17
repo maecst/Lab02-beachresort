@@ -37,16 +37,16 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Rooms extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
 	 */
 	public function index()
 	{
-		$this->load->view('welcome');
+		$this->load->view('rooms');
 	}
 }
 
-/* End of file Welcome.php */
-/* Location: ./application/controllers/Welcome.php */
+/* End of file Rooms.php */
+/* Location: ./application/controllers/Rooms.php */
